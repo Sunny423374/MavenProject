@@ -1,4 +1,6 @@
+
 import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
 import com.jenkins.MyCalculator;
@@ -7,6 +9,7 @@ public class MyCalculatorTest {
 	@Test
 	public void test1()
 	{
+		
 		assertEquals(10, new MyCalculator().getSum(5,5));
 	}
 	
